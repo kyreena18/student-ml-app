@@ -1,9 +1,10 @@
 <div id="root"></div>
-<script type="text/babel">
-    function hello(){
-        return <h1>Hello</h1>
-    }
 
-    const root = ReactDOM.createRoot(document.getElementById('root'));
-    root.remder(<hello />)
+<script type="text/babel">
+  function HelloWorld() {
+    return <h1>Hello World!</h1>;
+  }
+
+  const root = ReactDOM.createRoot(document.getElementById('root'));
+  root.render(<HelloWorld />);
 </script>
